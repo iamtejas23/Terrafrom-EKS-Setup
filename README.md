@@ -154,3 +154,11 @@ output "region" {
 
 ```
 ## Commands
+```
+terraform init -upgrade
+terraform apply -auto-approve
+```
+
+```
+terraform import aws_cloudwatch_log_group.eks /aws/eks/eks-cluster/cluster
+```
